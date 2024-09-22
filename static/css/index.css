@@ -17,7 +17,20 @@ body {
 
 .titulo {
     color: #ffffff;
-    font-size: 25px;
+    font-size: 24px;
     margin-left: 175px;
 }
+
+.titulo-container {
+    display: flex;
+    align-items: center;
+}
+
+.imagem-titulo {
+    width: 80px;
+    height: auto;
+    margin-right: -100px;
+}
+
+
 
