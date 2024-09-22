@@ -1,0 +1,23 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.div1 {
+    background-color: #141487;
+    padding: 2%;
+    margin: 0%;
+    font-size: 30px;
+}
+
+body {
+   background-color: #ffffff;
+}
+
+.titulo {
+    color: #ffffff;
+    font-size: 25px;
+    margin-left: 175px;
+}
+
