@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/css/login.css">
+    <link rel="stylesheet" href="../static/css/administrador.css">
     <title>Login</title>
 </head>
 
@@ -15,20 +15,21 @@
             {{menssagem[0]}}
         </div>
     {% endif %}
+    <h1 class="titulo">administrador</h1>
     <div id="form-fundo">
-        <h1>LOGIN</h1>
+        <h1>CADASTRAR USUARIO</h1>
         <h1>@_vctorr @luan_carlos77l</h1>
         <div id="form-frente">
-            <form action="/login" id="login" method="post">
+            <form action="/cadastrarusuario" id="login" method="post">
                 <label for="nome">NOME</label>
                 <input type="text" name="nome" id="nome" required placeholder="Digite seu nome"><br> <br>
                 <label for="senha" id="senha">SENHA</label>
-                <input type="password" name="senha" id="senha" required placeholder="Digite sua senha"><br> <br>
+                <input type="text" name="senha" id="senha" required placeholder="Digite sua senha"><br> <br>
                 <button type="submit" id="bnt-login">
                     <span></span>
                     <span></span>
                     <span></span>
-                    <span></span>ENTRAR
+                    <span></span>CADASTRAR
                 </button>
             </form>
         </div>

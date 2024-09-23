@@ -61,7 +61,13 @@ button:hover {
     font-size: 30px;
     cursor: pointer;
 }
-
+#flash_alerta{
+    background-color: red;
+    font-size: 50px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-align: center;
+}
 
 
 
